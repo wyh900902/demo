@@ -8,13 +8,14 @@ public class HelloController {
 
     @GetMapping("/hi")
     public String hello() {
-        System.out.println("111111");
+        System.out.println("hello");
         return "hello";
     }
 
 
     @GetMapping("/")
     public String index() {
+        System.out.println("index");
         return "index";
     }
 }
