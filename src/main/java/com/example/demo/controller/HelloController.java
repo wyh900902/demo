@@ -24,4 +24,10 @@ public class HelloController {
         System.out.println("test");
         return "test";
     }
+
+    @GetMapping("/wyh")
+    public String wyh() {
+        System.out.println("wyh");
+        return "wyh";
+    }
 }
