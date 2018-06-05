@@ -30,4 +30,10 @@ public class HelloController {
         System.out.println("wyh");
         return "wyh";
     }
+
+    @GetMapping("/new")
+    public String newTest() {
+        System.out.println("new");
+        return "new";
+    }
 }
